@@ -8,23 +8,31 @@ nav {
 	font-size: 20px;
 	background-color: #ffffff;
 	padding-top: 10px;
+	border-bottom: solid 3px #cccccc;
 }
 
 .navbar-nav {
 	padding-top: 15px;
 }
 
+a {
+	color: #666666;
+}
+
+a:hover {
+	color: #4aaaa5;
+}
 
 .nav_title {
 	font-size: 30px;
 	color: white;
-	padding: 20px;
+	padding: 1%;
 	background-color: #4aaaa5;
 	text-align: center;
 }
 
 .about_box {
-	width: 650px;
+	max-width: 48%;
 	background-color: #ffffff;
 	border: solid 20px #ffffff;
 	margin: 3% 0 10%;
@@ -104,7 +112,7 @@ h3 {
 	text-align: center;
 	color: #4aaaa5;
 	padding-bottom: 2%;
-	margin: 3% 0 10% 3%;
+	margin: 3% 0 0 3%;
 	border-right: solid 30px #ffffff;
 	border-left: solid 30px #ffffff;
 }
@@ -130,6 +138,6 @@ footer {
 	background-color: #666666;
 	padding: 2% 0;
 	border-top: solid 3px #4aaaa5;
-	width: 100%
+	max-width: 100%
 }
 
